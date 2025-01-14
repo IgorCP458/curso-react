@@ -1,0 +1,38 @@
+.container {
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #eee;
+  padding: 30px;
+}
+
+.button-container {
+  display: flex;
+  align-items: flex-end;
+  min-height: 100px;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px,1fr));
+  gap: 30px;
+  
+}
+
+.post {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 100ms ease-in-out;
+}
+
+.post:hover {
+  transform: scale(1.05);
+}
+
+.post-content {
+  padding: 30px;
+}
+
+.post img {
+  max-width: 100%;
+}
