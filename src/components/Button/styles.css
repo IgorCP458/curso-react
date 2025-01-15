@@ -8,6 +8,6 @@
   }
   
 .button:disabled {
-    background: #888;
+    background: #a2a1a1;
     cursor: not-allowed;
 }
