@@ -11,7 +11,7 @@ class Home extends Component {
   state = {
     posts: [],
     allPosts: [],
-    postsPerPage: 2,
+    postsPerPage: 5,
     page: 0,
     searchValue: ''
   }
